@@ -14,7 +14,7 @@
         android:paddingBottom="@dimen/separation_margin"
         android:paddingLeft="@dimen/standard_margin"
         android:paddingRight="@dimen/standard_margin"
-        android:paddingTop="@dimen/separation_margin">
+        android:paddingTop="@dimen/standard_margin">
 
         <!-- Question 1 -->
         <android.support.v7.widget.CardView
