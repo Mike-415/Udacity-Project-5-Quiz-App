@@ -60,6 +60,9 @@
         <item name="android:background">@color/colorDivider</item>
         <item name="android:layout_marginBottom">@dimen/separation_margin</item>
     </style>
+    <style name="card" parent="wrapContent">
+        <item name="android:layout_marginBottom">@dimen/standard_margin</item>
+    </style>
 
     <style name="cardInnerLayout" parent="wrapContent">
         <item name="android:padding">@dimen/standard_margin</item>

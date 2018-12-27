@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary color of the app (shown in the app bar) -->
-    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimary">#9C27B0</color>
 
     <!-- Primary dark color of the app (shown in the status bar) -->
-    <color name="colorPrimaryDark">#5D4037</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
 
     <!-- Color of most input Views (shown in CheckBoxes, RadioButtons, and Buttons)  -->
-    <color name="colorAccent">#FF5722</color>
+    <color name="colorAccent">#00BCD4</color>
 
     <!-- Background color for app -->
-    <color name="colorBackground">#FFECB3</color>
+    <color name="colorBackground">#64FFDA</color>
 
     <!-- Background color for the question dividers -->
     <color name="colorDivider">#BCAAA4</color>

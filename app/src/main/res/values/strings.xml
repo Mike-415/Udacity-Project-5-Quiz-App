@@ -27,7 +27,7 @@
     <string name="question_2_answer_1">else</string>
     <string name="question_2_answer_2">null</string>
     <string name="question_2_answer_3">nullptr</string>
-    <string name="question_2_answer_4">synchronized</string>
+    <string name="question_2_answer_4">volatile</string>
     <string name="question_2_answer_5">args</string>
     <string name="question_2_answer_6">cout</string>
 
