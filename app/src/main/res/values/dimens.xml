@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default margin between elements, per the Android Design guidelines. -->
+    <dimen name="standard_margin">16dp</dimen>
+    <!-- Margin used to separate questions for one another-->
+    <dimen name="separation_margin">32dp</dimen>
+    <!-- Margin on the left side of answers to align answer elements-->
+    <dimen name="left_margin">24dp</dimen>
+    <!-- Margin for each CheckBox -->
+    <dimen name="checkbox_padding">8dp</dimen>
+</resources>

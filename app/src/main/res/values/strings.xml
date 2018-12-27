@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Title for the application. [CHAR LIMIT=27] -->
+    <string name="app_name">Java Quiz</string>
+
+    <!-- Question numbers [CHAR LIMIT=2] -->
+    <string name="question_1_number">1.</string>
+    <string name="question_2_number">2.</string>
+    <string name="question_3_number">3.</string>
+    <string name="question_4_number">4.</string>
+    <string name="question_5_number">5.</string>
+
+    <!-- Question text -->
+    <string name="question_1_text">What command is used to compile a java file into bytecode through the command line interface?</string>
+    <string name="question_2_text">Which of the following are java keywords?</string>
+    <string name="question_3_text">Enter some text to cast the Animal instance named \'carnivore\'  into a Cat</string>
+    <string name="question_4_text">Which are the three main principles of object oriented programming</string>
+    <string name="question_5_text">A functional interface is defined by which of the following constructs?</string>
+
+    <!-- Answers for question 1 -->
+    <string name="question_1_answer_1">java SomeFile</string>
+    <string name="question_1_answer_2">g++ SomeFile.java</string>
+    <string name="question_1_answer_3">compile SomeFile.java</string>
+    <string name="question_1_answer_4">javac SomeFile.java</string>
+
+    <!-- Answers for question 2 -->
+    <string name="question_2_answer_1">else</string>
+    <string name="question_2_answer_2">null</string>
+    <string name="question_2_answer_3">nullptr</string>
+    <string name="question_2_answer_4">synchronized</string>
+    <string name="question_2_answer_5">args</string>
+    <string name="question_2_answer_6">cout</string>
+
+    <!-- Answers for question 4 -->
+    <string name="question_4_answer_1">Invocation</string>
+    <string name="question_4_answer_2">Polymorphism</string>
+    <string name="question_4_answer_3">Polyphenols</string>
+    <string name="question_4_answer_4">Parallelism</string>
+    <string name="question_4_answer_5">Inheritance</string>
+    <string name="question_4_answer_6">Encapsulation</string>
+
+    <!-- Answers for question 5 -->
+    <string name="question_5_answer_1">Default methods</string>
+    <string name="question_5_answer_2">Single abstract method</string>
+    <string name="question_5_answer_3">Constants</string>
+
+    <!-- Text for submit button [CHAR LIMIT= 40]-->
+    <string name="submit_button">Submit Quiz</string>
+</resources>

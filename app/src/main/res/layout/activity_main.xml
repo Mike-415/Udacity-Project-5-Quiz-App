@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/separation_margin"
+        android:paddingLeft="@dimen/standard_margin"
+        android:paddingRight="@dimen/standard_margin"
+        android:paddingTop="@dimen/separation_margin">
+
+        <!-- Question 1 -->
+        <LinearLayout style="@style/questionAndAnswerHorizontalLayout">
+
+            <TextView
+                style="@style/question_number_text_view"
+                android:fontFamily="sans-serif"
+                android:text="@string/question_1_number" />
+
+            <TextView
+                style="@style/question_text_view"
+                android:fontFamily="sans-serif"
+                android:text="@string/question_1_text" />
+        </LinearLayout>
+        <!-- Question 1 Answers -->
+        <LinearLayout style="@style/questionAndAnswerHorizontalLayout">
+
+            <RadioGroup style="@style/radio_group">
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:fontFamily="monospace"
+                    android:text="@string/question_1_answer_1" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:fontFamily="monospace"
+                    android:text="@string/question_1_answer_2" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:fontFamily="monospace"
+                    android:text="@string/question_1_answer_3" />
+
+                <RadioButton
+                    android:id="@+id/question1_correct_radio_button"
+                    style="@style/radio_button"
+                    android:fontFamily="monospace"
+                    android:text="@string/question_1_answer_4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/divider_view" />
+
+        <!-- Question 2 -->
+        <LinearLayout style="@style/questionAndAnswerHorizontalLayout">
+
+            <TextView
+                style="@style/question_number_text_view"
+                android:fontFamily="sans-serif"
+                android:text="@string/question_2_number" />
+
+            <TextView
+                style="@style/question_text_view"
+                android:fontFamily="sans-serif"
+                android:text="@string/question_2_text" />
+        </LinearLayout>
+
+        <!-- Question 2 Answers-->
+        <LinearLayout style="@style/questionAndAnswerHorizontalLayout">
+
+            <LinearLayout style="@style/left_checkbox_vertical_layout">
+
+                <CheckBox
+                    android:id="@+id/question2_correct_checkbox1"
+                    style="@style/checkbox"
+                    android:fontFamily="monospace"
+                    android:text="@string/question_2_answer_1" />
+
+                <CheckBox
+                    android:id="@+id/question2_correct_checkbox2"
+                    style="@style/checkbox"
+                    android:fontFamily="monospace"
+                    android:text="@string/question_2_answer_2" />
+
+                <CheckBox
+                    android:id="@+id/question2_incorrect_checkbox1"
+                    style="@style/checkbox"
+                    android:fontFamily="monospace"
+                    android:text="@string/question_2_answer_3" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/vertical_layout">
+
+                <CheckBox
+                    android:id="@+id/question2_correct_checkbox3"
+                    style="@style/checkbox"
+                    android:fontFamily="monospace"
+                    android:text="@string/question_2_answer_4" />
+
+                <CheckBox
+                    android:id="@+id/question2_incorrect_checkbox2"
+                    style="@style/checkbox"
+                    android:fontFamily="monospace"
+                    android:text="@string/question_2_answer_5" />
+
+                <CheckBox
+                    android:id="@+id/question2_incorrect_checkbox3"
+                    style="@style/checkbox"
+                    android:fontFamily="monospace"
+                    android:text="@string/question_2_answer_6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/divider_view" />
+
+        <!-- Question 3 -->
+        <LinearLayout style="@style/questionAndAnswerHorizontalLayout">
+
+            <TextView
+                style="@style/question_number_text_view"
+                android:fontFamily="sans-serif"
+                android:text="@string/question_3_number" />
+
+            <TextView
+                style="@style/question_text_view"
+                android:fontFamily="sans-serif"
+                android:text="@string/question_3_text" />
+        </LinearLayout>
+
+        <!-- Question 3 Answers -->
+        <LinearLayout
+            style="@style/wrapContent"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="32dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/wrapContent"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="monospace"
+                android:text="Animal animal = new Animal();"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                style="@style/wrapContent"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wrapContent"
+                    android:fontFamily="monospace"
+                    android:text="Cat catty = "
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/question3_edit_text"
+                    style="@style/wrapContent"
+                    android:background="@color/colorBackgroundEditText"
+                    android:fontFamily="serif-monospace"
+                    android:hint=" answer "
+                    android:textColor="@android:color/holo_green_light"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textCursorDrawable="@drawable/green_cursor" />
+
+                <TextView
+                    style="@style/wrapContent"
+                    android:fontFamily="monospace"
+                    android:text=" animal; "
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/divider_view" />
+
+        <!-- Question 4 -->
+        <LinearLayout style="@style/questionAndAnswerHorizontalLayout">
+
+            <TextView
+                style="@style/question_number_text_view"
+                android:fontFamily="sans-serif"
+                android:text="@string/question_4_number" />
+
+            <TextView
+                style="@style/question_text_view"
+                android:fontFamily="sans-serif"
+                android:text="@string/question_4_text" />
+        </LinearLayout>
+
+        <!-- Question 4 Answers -->
+        <LinearLayout style="@style/questionAndAnswerHorizontalLayout">
+
+            <LinearLayout style="@style/left_checkbox_vertical_layout">
+
+                <CheckBox
+                    android:id="@+id/question4_incorrect_checkbox1"
+                    style="@style/checkbox"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/question_4_answer_1" />
+
+                <CheckBox
+                    android:id="@+id/question4_correct_checkbox1"
+                    style="@style/checkbox"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/question_4_answer_2" />
+
+                <CheckBox
+                    android:id="@+id/question4_incorrect_checkbox2"
+                    style="@style/checkbox"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/question_4_answer_3" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/vertical_layout">
+
+                <CheckBox
+                    android:id="@+id/question4_incorrect_checkbox3"
+                    style="@style/checkbox"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/question_4_answer_4" />
+
+                <CheckBox
+                    android:id="@+id/question4_correct_checkbox2"
+                    style="@style/checkbox"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/question_4_answer_5" />
+
+                <CheckBox
+                    android:id="@+id/question4_correct_checkbox3"
+                    style="@style/checkbox"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/question_4_answer_6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/divider_view" />
+
+        <!-- Question 5 -->
+        <LinearLayout style="@style/questionAndAnswerHorizontalLayout">
+
+            <TextView
+                style="@style/question_number_text_view"
+                android:fontFamily="sans-serif"
+                android:text="@string/question_5_number" />
+
+            <TextView
+                style="@style/question_text_view"
+                android:fontFamily="sans-serif"
+                android:text="@string/question_5_text" />
+        </LinearLayout>
+        <!-- Question 5 Answers -->
+        <LinearLayout style="@style/questionAndAnswerHorizontalLayout">
+
+            <RadioGroup style="@style/radio_group">
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/question_5_answer_1" />
+
+                <RadioButton
+                    android:id="@+id/question5_correct_radio_button"
+                    style="@style/radio_button"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/question_5_answer_2" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/question_5_answer_3" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:background="@color/colorAccent"
+            android:text="@string/submit_button"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>
