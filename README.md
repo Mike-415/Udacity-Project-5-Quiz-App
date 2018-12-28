@@ -1,7 +1,7 @@
 # Udacity-Project-5-Quiz-App
 This application test the user's knowledge on basic Java fundamentals
 
-![](music_app_video.gif)
+![](quiz_app_video.gif)
 
 ## Requirements
 
